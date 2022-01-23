@@ -1,0 +1,46 @@
+@media (min-width:768px) and (max-width:991px) {
+
+    .header__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header__menu {
+        margin: 0px 0px 0px 80px;
+    }
+
+    .menu {
+        &__right {
+            margin: 0px 0px 0px 0px;
+
+        }
+    }
+
+    .main {
+        background-position: right;
+    }
+
+    .main-block {
+
+        &__border {
+            padding: 120px 0px 191px 0px;
+        }
+
+    }
+
+    .business {
+        &__content {
+            padding: 0px 0px 0px 20px;
+        }
+    }
+
+    .clients {
+        &__item {
+            flex: 0 1 33.333%;
+            padding-bottom: 25px;
+
+        }
+
+    }
+
+}

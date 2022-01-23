@@ -1,0 +1,16 @@
+@media (min-width:992px) and (max-width:1199px) {
+
+    .header__container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu {
+        &__right {
+            margin: 0px 0px 0px 0px;
+
+        }
+    }
+
+    
+
+}
