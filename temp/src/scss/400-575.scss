@@ -1,0 +1,214 @@
+@media (min-width: 300px) and (max-width: 575px) {
+
+    .header {
+        background: #F7F7F7;
+    }
+
+    .header__container {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 35px 100px 35px;
+        h3 {
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 32px;
+            letter-spacing: 0.1px;
+            color: #252B42;
+        }
+        .mobile__img {
+            width: 140px;
+            display: flex;
+            justify-content: space-between;
+            img {
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+    .nav__mobile {
+        display: none;
+        &-menu {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            li {
+                list-style: none;
+                a {
+                    text-decoration: none;
+                    font-size: 30px;
+                    line-height: 45px;
+                    text-align: center;
+                    letter-spacing: 0.2px;
+                    color: #737373;
+                }
+            }
+        }
+    }
+
+    .nav__mobile.active {
+        margin-bottom: 100px;
+        display: block;
+    }
+
+    .main-block {
+        background-image: url(../img/mob-back.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        &__title {
+            font-size: 42px;
+            text-align: center;
+        }
+        &__text {
+            text-align: center;
+        }
+        &__buttons {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__button:not(:last-child) {
+            margin: 0px 0px 25px 0px;
+        }
+        &__image {
+            display: none;
+        }
+    }
+
+    .services {
+        &__body {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__column:not(:last-child) {
+            margin: 0px 0px 30px 0px;
+        }
+
+    }
+
+    .header-block {
+        width: 70%;
+        margin: 0 auto;
+        padding: 45px 0px;
+    }
+    .advantages {
+        &__body {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__column {
+            width: 238px;
+        }
+        &__column:not(:last-child) {
+            margin: 0px 0px 30px 0px;
+        }
+    }
+
+    .practice {
+        &__body {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__column {
+            width: 70%;
+        }
+        &__column:not(:last-child) {
+            margin: 0px 0px 30px 0px;
+        }
+    }
+
+    .business {
+        padding: 100px 0px 0px 0px;
+        &__body {
+            padding: 100px 0px 0px 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__video {
+            width: 75%;
+            margin: 0px 0px 50px 0px;
+        }
+        &__content {
+            align-items: center;
+            padding: 20px 0px 0px 50px;
+        }
+    }
+    .clients {
+        &__item {
+            flex: 0 1 100%;
+        }
+        &__item:not(:last-child) {
+            margin: 0px 0px 60px 0px;
+        }
+    }
+
+    .subscribe {
+        &__body {
+            margin: 0px -15px;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__title {
+            text-align: center;
+            margin: 0px 0px 20px 0px;
+        }
+    }
+
+    .subscribe::before {
+        display: none;
+    }
+    .touch {
+        &__items {
+            flex-direction: column;
+        }
+        &__item:not(:last-child) {
+            margin: 0px 0px 30px 0px;
+        }
+    }
+
+    .contact {
+        &__body {
+            flex-direction: column;
+            align-items: left;
+            padding: 40px 57px;
+        }
+        &__content {
+            margin: 0px 0px 50px 0px;
+        }
+    }
+
+    .footer {
+        &__top {
+            padding: 50px 88px;
+        }
+        &__row {
+            flex-direction: column;
+        }
+        &__column {
+            text-align: left;
+            flex: 0 1 100%;
+        }
+        &__column:not(:last-child) {
+            margin: 0px 0px 30px 0px;
+        }
+        &__container {
+            flex-direction: column;
+            align-items: left;
+            padding: 25px 89px;
+            width: 236px;
+        }
+        &__copy {
+            margin: 0px 0px 50px 0px;
+        }
+    }
+
+    .social {
+        padding: 0px 0px;
+        text-align: left;
+    }
+
+}
